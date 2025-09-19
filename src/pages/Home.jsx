@@ -1,14 +1,18 @@
-import Navbar from "../components/Navbar"
+import { HeroSection } from "../components/HeroSection";
+import Navbar from "../components/Navbar";
 
-export const Home = () =>{
-    return (
-        <div className="w-[1440px] flex flex-col justify-center items-center">
-            {/* Navbar  */}
-            <Navbar />
-            {/* Main  */}
-            {/* Footer  */}
+export const Home = () => {
+  return (
+    <div className="w-full flex flex-col justify-center items-center">
+      {/* Navbar  */}
+      <Navbar />
+      {/* Main  */}
+      <div>
+        {/* Hero section  */}
+        <HeroSection />
+      </div>
 
-
-        </div>
-    )
-}
+      {/* Footer  */}
+    </div>
+  );
+};
