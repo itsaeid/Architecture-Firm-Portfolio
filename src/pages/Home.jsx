@@ -1,3 +1,4 @@
+import { About } from "../components/About";
 import { HeroSection } from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 
@@ -7,10 +8,11 @@ export const Home = () => {
       {/* Navbar  */}
       <Navbar />
       {/* Main  */}
-      <div>
+      
         {/* Hero section  */}
         <HeroSection />
-      </div>
+        <About />
+     
 
       {/* Footer  */}
     </div>
