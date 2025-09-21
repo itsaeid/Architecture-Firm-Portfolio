@@ -8,7 +8,7 @@
     @apply bg-black text-white text-lg cursor-pointer px-8 py-3 rounded-md;
   }
   .button-alarm {
-
+    @apply bg-[#E3A563] text-white text-lg cursor-pointer px-8 py-3 rounded-md hover:bg-[#DA852B]
   }
 }
 
