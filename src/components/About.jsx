@@ -21,7 +21,7 @@ export const About = () => {
             <div className="flex gap-4 pointer bg-white p-8 rounded-2xl">
               <div className="bg-primary p-4 rounded-xl ">
                 <img
-                  src="https://photoclerks.com/html/archeva-update/assets/svg/document-contact.svg"
+                  src="https://photoclerks.com/html/archeva-update/assets/svg/house-decoration.svg"
                   alt="svg"
                 />
               </div>
@@ -34,7 +34,7 @@ export const About = () => {
             <div className="flex gap-4 pointer bg-white p-8 rounded-2xl">
               <div className="bg-primary p-4 rounded-xl ">
                 <img
-                  src="https://photoclerks.com/html/archeva-update/assets/svg/document-contact.svg"
+                  src="https://photoclerks.com/html/archeva-update/assets/svg/rating.svg"
                   alt="svg"
                 />
               </div>

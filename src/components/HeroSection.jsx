@@ -1,6 +1,6 @@
 export const HeroSection = () => {
   return (
-    <div className="flex justify-between items-center w-[1300px] h-[100vh]">
+    <div className="flex justify-between items-center mt-5 w-[1300px] h-[100vh]">
       {/* left side  */}
       <div className="banner-left-sec w-1/2">
         <h5 className="font-bold text-xl text-primary">Trusted Partners</h5>
