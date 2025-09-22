@@ -10,13 +10,14 @@ export const Home = () => {
       {/* Navbar  */}
       <Navbar />
       {/* Main  */}
-      
-        {/* Hero section  */}
-        <HeroSection />
-        <About />
-        <PortfolioList />
+
+      {/* Hero section  */}
+      <HeroSection />
+      <About />
+      <div>
         
-     
+        <PortfolioList />
+      </div>
 
       {/* Footer  */}
       <Footer />

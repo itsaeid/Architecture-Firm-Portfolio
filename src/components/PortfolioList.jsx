@@ -35,7 +35,7 @@ export default function PortfolioList() {
   if (error) return <p className="p-4 text-red-600">خطا: {error}</p>;
 
   return (
-    <div className="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="p-6 w-[1300px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {items.map((p) => (
         <PortfolioCard key={p.id} portfolio={p} />
       ))}
